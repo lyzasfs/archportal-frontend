@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://your-render-backend-1.onrender.com/api',
+  baseURL: 'https://archportal-backend-1.onrender.com/api',
   withCredentials: false,
   headers: {
     'Content-Type': 'application/json',
